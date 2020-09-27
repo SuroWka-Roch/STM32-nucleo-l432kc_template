@@ -1,0 +1,63 @@
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccTx1b8g.o: in function `Reset_Handler':
+/home/piernik/programing/c/stm32/projects/GPIO_IOToggle/SW4STM32/startup_stm32l432xx.s:66: undefined reference to `SystemInit'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `RCC_SetFlashLatencyFromMSIRange':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1778: undefined reference to `HAL_PWREx_GetVoltageRange'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1783: undefined reference to `HAL_PWREx_GetVoltageRange'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_DeInit':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:387: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_GetSysClockFreq':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1478: undefined reference to `MSIRangeTable'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_OscConfig':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:934: undefined reference to `AHBPrescTable'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:934: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_ClockConfig':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1205: undefined reference to `AHBPrescTable'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1205: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_GetHCLKFreq':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1492: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_GetPCLK1Freq':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1504: undefined reference to `APBPrescTable'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1504: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccipKehh.o: in function `HAL_RCC_GetPCLK2Freq':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1516: undefined reference to `APBPrescTable'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1516: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccSths1d.o: in function `HAL_FLASH_IRQHandler':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:392: undefined reference to `FLASH_PageErase'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:411: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:346: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:402: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccSths1d.o: in function `HAL_FLASH_Program':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:233: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccltlzVh.o: in function `HAL_PWR_EnterSLEEPMode':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:470: undefined reference to `HAL_PWREx_EnableLowPowerRunMode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:457: undefined reference to `HAL_PWREx_DisableLowPowerRunMode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccltlzVh.o: in function `HAL_PWR_EnterSTOPMode':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:535: undefined reference to `HAL_PWREx_EnterSTOP0Mode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:531: undefined reference to `HAL_PWREx_EnterSTOP1Mode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/cclkEPof.o: in function `HAL_InitTick':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal.c:292: undefined reference to `SystemCoreClock'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:69: GPO_test.elf] Error 1
+
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccIC0lRT.o: in function `RCC_SetFlashLatencyFromMSIRange':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1778: undefined reference to `HAL_PWREx_GetVoltageRange'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_rcc.c:1783: undefined reference to `HAL_PWREx_GetVoltageRange'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccOjiUZV.o: in function `HAL_FLASH_IRQHandler':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:392: undefined reference to `FLASH_PageErase'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:411: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:346: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:402: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccOjiUZV.o: in function `HAL_FLASH_Program':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_flash.c:233: undefined reference to `FLASH_FlushCaches'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccsRNJXU.o: in function `HAL_PWR_EnterSLEEPMode':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:470: undefined reference to `HAL_PWREx_EnableLowPowerRunMode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:457: undefined reference to `HAL_PWREx_DisableLowPowerRunMode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /tmp/ccsRNJXU.o: in function `HAL_PWR_EnterSTOPMode':
+/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:535: undefined reference to `HAL_PWREx_EnterSTOP0Mode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Src/stm32l4xx_hal_pwr.c:531: undefined reference to `HAL_PWREx_EnterSTOP1Mode'
+/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/bin/ld: /home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/libg.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x16): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:69: GPO_test.elf] Error 1

@@ -1,0 +1,43 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "clang-x64"
+        },
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/STM32L4xx_HAL_Driver/Inc/*",
+                "/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/CMSIS/Device/ST/STM32L4xx/Include/**",
+                "/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/CMSIS/Include/**",
+                "/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Drivers/BSP/STM32L4xx_Nucleo_32/**"
+            ],
+            "defines": [],
+            "compilerPath": "/home/piernik/programing/c/stm32/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-arm",
+            "compilerArgs": [
+                "-g ",
+                "-O2 ",
+                "-Wall",
+                "-DUSE_STDPERIPH_DRIVER ",
+                "-mlittle-endian ",
+                "-mthumb ",
+                "-mcpu=cortex-m4 ",
+                "-mthumb-interwork ",
+                "-mfloat-abi=hard",
+                "-mfpu=fpv4-sp-d16"
+            ]
+        }
+    ],
+    "version": 4
+}
