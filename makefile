@@ -30,9 +30,6 @@ CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += -I.
 
-CFLAGS += -I./Morse_codec
-
-
 # Include files from STM libraries
 CFLAGS += -I/home/piernik/programing/c/stm32/STM32Cube_FW_L4_V1.16.0/Projects/NUCLEO-L432KC/Examples/GPIO/GPIO_IOToggle/SW4STM32/STM32L432KC_NUCLEO
 CFLAGS += -I./Inc
@@ -66,3 +63,19 @@ clean:
 # Flash the STM32
 burn: proj
 	st-flash write $(PROJ_NAME).bin 0x8000000
+
+
+#run openocd for the board 
+OpenOCD_PATH=/usr/share/openocd/scripts
+
+.PHONY: openocd
+
+openocd:
+	openocd -f $(OpenOCD_PATH)/interface/stlink-v2-1.cfg -f $(OpenOCD_PATH)/target/stm32l4x.cfg
+
+#gdb for the board
+
+.PHONY: gdb
+gdb:
+	echo "reset halt" | nc -N localhost 4444
+	arm-none-eabi-gdb --eval-command "target remote localhost:3333" $(PROJ_NAME).elf
